@@ -7,7 +7,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./style.scss";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import logo from "../../assets/movix-logo.svg";
+import logo from "../../assets/MOVIX 2.jpg";
 
 const Header = () => {
     const [show, setShow] = useState("top");
@@ -77,6 +77,13 @@ const Header = () => {
                     <img src={logo} alt="" />
                 </div>
                 <ul className="menuItems">
+                <li
+                        className="menuItem"
+                        onClick={() => navigate("/")}
+                    >
+                        Home
+                    </li>
+
                     <li
                         className="menuItem"
                         onClick={() => navigationHandler("movie")}

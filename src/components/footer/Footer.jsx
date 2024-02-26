@@ -3,6 +3,7 @@ import {
     FaFacebookF,
     FaInstagram,
     FaTwitter,
+    FaGithub,
     FaLinkedin,
 } from "react-icons/fa";
 
@@ -22,21 +23,19 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                @  2024 copyright Design and Developed by <a className="cpyright"   href="https://myportfolio-delta-umber.vercel.app/" target="_blank" > VIVEK Kumar </a>
+                @  2024 copyright Design and Developed by <a className="cpyrightt"   href="https://myportfolio-delta-umber.vercel.app/" target="_blank" > VIVEK Kumar </a>
                
                 </div>
                 <div className="socialIcons">
+                   
                     <span className="icon">
-                        <FaFacebookF />
+                    <a className="cpyright"   href="https://github.com/kumarvivekpandey" target="_blank">  <FaGithub /> </a>
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                    <a className="cpyright"   href="https://twitter.com/vkpvivek1998" target="_blank">  <FaTwitter /> </a>
                     </span>
                     <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
-                      <a className="cpyright"   href="https://www.linkedin.com/in/kumar-vivek-pandey/">  <FaLinkedin /> </a>
+                      <a className="cpyright"   href="https://www.linkedin.com/in/kumar-vivek-pandey/" target="_blank">  <FaLinkedin /> </a>
                     </span>
                 </div>
             </ContentWrapper>
