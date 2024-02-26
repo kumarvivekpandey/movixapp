@@ -22,12 +22,8 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                @  2024 copyright Design and Developed by <a className="cpyright"   href="https://myportfolio-delta-umber.vercel.app/" target="_blank" > VIVEK Kumar </a>
+               
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
@@ -40,7 +36,7 @@ const Footer = () => {
                         <FaTwitter />
                     </span>
                     <span className="icon">
-                        <FaLinkedin />
+                      <a className="cpyright"   href="https://www.linkedin.com/in/kumar-vivek-pandey/">  <FaLinkedin /> </a>
                     </span>
                 </div>
             </ContentWrapper>
